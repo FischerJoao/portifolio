@@ -316,21 +316,21 @@ section h2::after {
 }
 
 .contact-info {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .contact-info p {
   margin-bottom: 20px;
   font-size: 1.1rem;
+  text-align: left;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 15px;
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+  margin-bottom: 10px;
 }
 
 .contact-item i {
