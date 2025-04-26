@@ -23,10 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     if (window.scrollY > 100) {
       header.style.padding = "15px 0";
-      header.style.backgroundColor = "#2c3e50";
+      header.style.backgroundColor = "#121212";
     } else {
       header.style.padding = "20px 0";
-      header.style.backgroundColor = "#2c3e50";
+      header.style.backgroundColor = "#121212";
     }
   });
 });
